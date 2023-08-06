@@ -4,11 +4,11 @@ import sklearn
 import pandas as pd
 import numpy as np
 from PIL import Image
-model = pickle.load(open('C:/Users/saivi/OneDrive/Desktop/yuva-pro/model.sav', 'rb'))
+model = pickle.load(open('model.sav', 'rb'))
 
 st.title('Player Salary Prediction')
 st.sidebar.header('Player Data')
-image = Image.open('C:/Users/saivi/OneDrive/Desktop/yuva-pro/bb.jpg')
+image = Image.open('bb.jpg')
 st.image(image, '')
 
 # FUNCTION
